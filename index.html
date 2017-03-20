@@ -61,6 +61,46 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-newblog-1" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/20/newblog-1/" class="article-date">
+  <time datetime="2017-03-20T13:38:59.000Z" itemprop="datePublished">2017-03-20</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/20/newblog-1/">newblog</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="实验一安装部署hexo到Github"><a href="#实验一安装部署hexo到Github" class="headerlink" title="实验一安装部署hexo到Github"></a>实验一安装部署hexo到Github</h1><p>##一<br>1.安装git<br>2.安装node<br>3.设置npm镜像为淘宝<br>  npm config set registry <a href="https://registry.npm.taobao.org" target="_blank" rel="external">https://registry.npm.taobao.org</a><br>4.安装hexo<br>  npm install -g hexo-cli<br>5.初始化站点<br>  hexo init myhexo<br>  cd myhexo<br>  npm install<br>6.浏览本地站点<br>  hexo server</p>
+<p>##二<br>1.在Github上新建repository，名称必须是用户名.github.io，比如我的是qianyongsheng123.github.io<br>修改配置文件-confit.yml的deploy的部分，注意空格。<br>2.配置site部分【可选】<br>  Site<br>  title: 钱永生的博客<br>  subtitle:<br>  description:<br>  author: 钱永生<br>  language: zh-CN<br>  timezone: Asia/Shanghai<br>3.安装 hexo-deployer-git<br>  npm install hexo-deployer-git –save<br>4.配置git全局邮箱与名字<br>  git config –global user.email “2448826596@qq.com”<br>  git config –global user.name “Yongsheng Qian”<br>5.生成博客<br>  hexo generate<br>6.部署博客<br>  hexo deploy<br><img src="http://p1.bpimg.com/519918/ba1bc9bee03a0dc6.png" alt="cmd-markdown-logo"></p>
+<p>##三<br>1.生成新文章<br>  hexo new newblog<br>2.用编辑器修改文章：myhexo\source_posts\newblog.md<br>3.生成并发布到Github<br>  hexo d -g<br><img src="http://p1.bqimg.com/519918/d6ece4f91d171f3f.png" alt="cmd-markdown-logo"></p>
+<p>##四<br>这次实验奠定了我学习的基础，点亮了我的人生，绽放了我的青春，让我对未来的生活充满希望。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/03/20/newblog-1/" data-id="cj0i5t6aj0002pwv4istns3zw" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-newblog" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/03/13/newblog/" class="article-date">
@@ -88,7 +128,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/03/13/newblog/" data-id="cj085j63b0002y8v4daxac9h3" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/03/13/newblog/" data-id="cj0i5t6ah0001pwv4nqglfhrb" class="article-share-link">Share</a>
       
       
     </footer>
@@ -114,7 +154,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/03/13/README/" data-id="cj085j62v0000y8v4br3vnur7" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/03/13/README/" data-id="cj0i5t6ad0000pwv46t3ly2ag" class="article-share-link">Share</a>
       
       
     </footer>
@@ -159,7 +199,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/03/13/hello-world/" data-id="cj085j63b0001y8v47d95sdwl" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/03/13/hello-world/" data-id="cj0i5t6al0003pwv4ko5sneej" class="article-share-link">Share</a>
       
       
     </footer>
@@ -197,6 +237,10 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2017/03/20/newblog-1/">newblog</a>
+          </li>
         
           <li>
             <a href="/2017/03/13/newblog/">newblog</a>
